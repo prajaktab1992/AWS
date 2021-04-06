@@ -1,1 +1,43 @@
-Data Engineering
+## AWS overview for machine learnng
+
+### **AWS s3 overview:**
+Amazon s3 allows to store objects in buckets.
+
+Buckets should have universally unique name.
+
+Objects have a key (<buckets>/file)
+
+Max object size is 5TB
+
+---------------------------------------------------------------
+#### **s3 storage tiers**
+
+Amazon s3 standard - general purpose
+
+Amazon s3 standard - infrequent access(iA)
+
+Amazon s3 one zone - infrequent access
+
+Amazon s3 intelligent Tiering
+
+Amazon Glacier for archieves
+
+---------------------------------------------------------------
+
+#### **S3 security**
+
+###### **User based**
+
+IAM poilicies : which api call should be allowed for specific user
+
+
+###### **Resource based**
+
+Bucket policies
+
+Object access control list
+
+Bucket access control list
+
+
+
